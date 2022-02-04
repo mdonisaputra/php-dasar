@@ -31,11 +31,38 @@ var_dump ("M.Doni Saputra");
 // Operator
 // aritmatika
 // + - * / %
- $x = 10;
- $y = 20;
- echo $x * $y;
+//  $x = 10;
+//  $y = 20;
+//  echo $x * $y;
 
 // penggabung string 
+// .
+// $nama_depan = "M Doni";
+// $nama_belakang = "Saputra";
+// echo $nama_depan . " " . $nama_belakang;
+
+// Assigment
+// =, +=, -=, /=, %=, .=
+// $x = 1;
+// $x *=5;
+// echo $x;
+// $nama = "M. Doni";
+// $nama .= " ";
+// $nama .= "Saputra";
+// echo $nama;
+
+// Perbandingan
+// <, >, <=, >=, ==, !=
+//var_dump(1 == "1");
+
+// Identitas
+// ===, !==
+// var_dump(1 === "1")
+
+// Logika
+// &&, ||, !
+$x = 30;
+var_dump($x < 20 || $x % 2 == 0);
 
 ?>
 
